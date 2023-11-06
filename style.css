@@ -231,6 +231,18 @@ section a:hover {
     border: 1.5px solid #7b0100;
   }
 
+  #perfil,
+  #network,
+  #portfolio,
+  #network__links,
+  #portfolio__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+  }
+
   #container {
     background: rgba(25, 25, 25, 0.7);
 
