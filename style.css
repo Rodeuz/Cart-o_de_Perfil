@@ -222,7 +222,7 @@ section a:hover {
 
     background-color: #7b0100;
     border-radius: 1em;
-    border: 1.5px solid #cacaca;
+    border: 1.5px solid #7b0100;
   }
 
   #container {
@@ -253,6 +253,11 @@ section a:hover {
 
   #shortcuts a {
     background-color: #972727;
+    border-radius: 100%;
+  }
+
+  #shortcuts a:hover {
+    background-color: #be2525;
     border-radius: 100%;
   }
 }
